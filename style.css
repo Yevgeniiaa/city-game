@@ -1,0 +1,49 @@
+body {
+    background: #000;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    border: 10px dotted white;
+    padding-inline: 19%;
+    box-sizing: border-box;
+  }
+  
+  .city {
+    border-radius: 50%;
+    width: 16vw;
+    height: 16vw;
+    border: 1px solid white;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .city:hover {
+    transform: scale(1.1);
+  }
+  
+  .header,
+  .footer {
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  span {
+    margin: 10px;
+  }
